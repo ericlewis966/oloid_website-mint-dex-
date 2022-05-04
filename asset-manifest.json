@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.048f1100.css",
+    "main.js": "/static/js/main.70eb51e9.js",
+    "static/js/787.837f8042.chunk.js": "/static/js/787.837f8042.chunk.js",
+    "static/media/flame-particle.mp4": "/static/media/flame-particle.bd13bf892d357b418811.mp4",
+    "static/media/oloid_animation.gif": "/static/media/oloid_animation.49c6763db763c8292139.gif",
+    "static/media/SampleOloid.png": "/static/media/SampleOloid.10be1575b377a527556f.png",
+    "static/media/oloid_solo.png": "/static/media/oloid_solo.65cdbcf166bf394d4406.png",
+    "static/media/oloid_background.png": "/static/media/oloid_background.a119df611d2c4f593d45.png",
+    "static/media/bnb.png": "/static/media/bnb.2111c0df08022b478be0.png",
+    "static/media/logo.png": "/static/media/logo.9d8ea849ad74ef3a2457.png",
+    "static/media/now-meta-logo-m2-blackt.png": "/static/media/now-meta-logo-m2-blackt.b27df886c4829caed554.png",
+    "static/media/digital-frame.png": "/static/media/digital-frame.7475c72e404b7caa3497.png",
+    "static/media/mount.jpg": "/static/media/mount.e5ffe9020421955aa087.jpg",
+    "static/media/digital-7.ttf": "/static/media/digital-7.93911ab167c943140756.ttf",
+    "static/media/nmeta.png": "/static/media/nmeta.835b2948a9cbb980538e.png",
+    "static/media/unknown.png": "/static/media/unknown.835b2948a9cbb980538e.png",
+    "index.html": "/index.html",
+    "main.048f1100.css.map": "/static/css/main.048f1100.css.map",
+    "main.70eb51e9.js.map": "/static/js/main.70eb51e9.js.map",
+    "787.837f8042.chunk.js.map": "/static/js/787.837f8042.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.048f1100.css",
+    "static/js/main.70eb51e9.js"
+  ]
+}
