@@ -1,0 +1,62 @@
+.top-bar-container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    background-color: rgba(80, 80, 80, 0.5);
+    border-bottom: 1px solid #ffffff;
+}
+
+.menu-logo {
+    width: 30%;
+    justify-content: flex-start;
+}
+
+.logo-image {
+    width: 200px;
+}
+
+.menu-link {
+    width: fit-content;
+    width: 30%;
+    justify-content: space-between;
+}
+
+.menu-link-item {
+    color: #ffffff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.wallet-option {
+    width: 30%;
+    justify-content: flex-end;
+}
+
+@media screen and (max-width: 800px) {
+    .menu-logo {
+        display: none !important;
+    }
+
+    .menu-link {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .top-bar-container {
+        flex-direction: column !important;
+        justify-content: center;
+    }
+
+    .menu-link {
+        width: 90%;
+        margin-bottom: 5%;
+    }
+
+    .wallet-option {
+        width: 90%;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,14 @@
+.transaction-setting {
+    padding-top: 4%;
+}
+
+.modal-header {
+    background-color: rgb(18, 54, 163);
+    color: #ffffff;
+    border-right: 5px solid #00E6F6;
+    border-bottom: 2px solid #00E6F6;
+}
+
+.swal2-container {
+    z-index: 9999;
+}

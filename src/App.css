@@ -1,0 +1,40 @@
+* {
+  font-family: 'XoloniumRegular';
+  /* box-sizing: border-box; */
+}
+
+.G-App {
+  text-align: center;
+}
+
+.G-App-header {
+  background-color: #282c34;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.flex {
+  display:  flex;
+}
+
+.col {
+  flex-direction: column;
+}
+.row {
+  flex-direction: row;
+}

@@ -1,0 +1,43 @@
+.awesome-input {
+    font-size: 30px;
+    border: 2px solid #1e88e5;
+    border-bottom: 4px solid #1360a4;
+    border-radius: 3px;
+    color: #1360a4;
+    text-align: center;
+    outline: none;
+    background-color: #ffffff;
+    height: 90%
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type=number] {
+    -moz-appearance:textfield; /* Firefox */
+    /* font-family: "Digit-7"; */
+    font-size: 30px;
+    font-weight: 600;
+    width: 200px;
+}
+
+@media screen and (max-width: 400px) {
+    .input-number {
+        flex-direction: column !important;
+    }
+
+    .set-max {
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    input[type=number] {
+        font-size: 20px;
+        padding: 0px;
+    }
+}
